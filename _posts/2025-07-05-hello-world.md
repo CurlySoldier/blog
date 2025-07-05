@@ -2,8 +2,8 @@
 layout: post
 title: "Hello World - Starting My Blog Journey"
 date: 2025-07-05 12:00:00 -0000
-categories: [personal, blogging]
-tags: [first-post, jekyll, github-pages]
+categories: personal blogging
+tags: first-post jekyll github-pages
 ---
 
 # Hello World!
