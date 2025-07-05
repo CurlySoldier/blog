@@ -10,8 +10,8 @@ Hi! I'm Chad, and this is my personal blog where I explore emerging technologies
 
 ## Connect with Me
 
-- [LinkedIn](https://linkedin.com/in/yourprofile) - Connect with me professionally
-- [GitHub](https://github.com/yourusername) - Check out my projects
+- [LinkedIn](https://linkedin.com/in/chadchandrapaul) - Update this with your actual LinkedIn URL
+- [GitHub](https://github.com/curlysoldier) - Check out my projects
 
 ## What You'll Find Here
 

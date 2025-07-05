@@ -1,9 +1,9 @@
 # Site settings
-title: Your Blog Name
-email: your-email@example.com
-description: A brief description of your blog
-url: "https://yourusername.github.io"
-baseurl: "/blog" # Change this to "" if using yourusername.github.io directly
+title: Chad's Blog
+email: chad.chandrapaul@gmail.com  # Update this with your actual email
+description: Exploring emerging technologies, personal development, and project learnings
+url: "https://curlysoldier.github.io"
+baseurl: "/blog"
 
 # Theme selection - choose one of these:
 # theme: minima                    # Default Jekyll theme (uncomment to use)
@@ -32,4 +32,4 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Your Name"
+      author: "Chad Chandrapaul"
