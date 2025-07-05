@@ -1,0 +1,35 @@
+# Site settings
+title: Your Blog Name
+email: your-email@example.com
+description: A brief description of your blog
+url: "https://yourusername.github.io"
+baseurl: "/blog" # Change this to "" if using yourusername.github.io directly
+
+# Theme selection - choose one of these:
+# theme: minima                    # Default Jekyll theme (uncomment to use)
+remote_theme: pages-themes/minimal     # Clean, simple theme (recommended for learning)
+# remote_theme: pages-themes/cayman     # Modern with gradient header
+# remote_theme: pages-themes/architect  # Professional, header-focused
+# remote_theme: pages-themes/leap-day   # Clean, professional layout
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
