@@ -6,8 +6,8 @@ url: "https://curlysoldier.github.io"
 baseurl: "/blog"
 
 # Theme selection - choose one of these:
-# theme: minima                    # Default Jekyll theme (uncomment to use)
-remote_theme: pages-themes/minimal     # Clean, simple theme (recommended for learning)
+theme: minima                    # Default Jekyll theme
+# remote_theme: pages-themes/minimal     # Clean, simple theme (recommended for learning)
 # remote_theme: pages-themes/cayman     # Modern with gradient header
 # remote_theme: pages-themes/architect  # Professional, header-focused
 # remote_theme: pages-themes/leap-day   # Clean, professional layout
@@ -16,20 +16,7 @@ remote_theme: pages-themes/minimal     # Clean, simple theme (recommended for le
 markdown: kramdown
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
   - jekyll-seo-tag
 
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:title/
-
-# Defaults
-defaults:
-  - scope:
-      path: "./_posts"
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Chad Chandrapaul"
+# Simple permalink structure
+permalink: /:year/:month/:day/:title/
