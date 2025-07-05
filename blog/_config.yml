@@ -6,17 +6,17 @@ url: "https://curlysoldier.github.io"
 baseurl: "/blog"
 
 # Theme selection - choose one of these:
-theme: minima                    # Default Jekyll theme
-# remote_theme: pages-themes/minimal     # Clean, simple theme (recommended for learning)
-# remote_theme: pages-themes/cayman     # Modern with gradient header
-# remote_theme: pages-themes/architect  # Professional, header-focused
-# remote_theme: pages-themes/leap-day   # Clean, professional layout
+theme: minima
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
 # Simple permalink structure
-permalink: /:year/:month/:day/:title/
+permalink: /:year/:title/
+
+# Suppress Sass deprecation warnings for cleaner builds
+sass:
+  quiet_deps: true

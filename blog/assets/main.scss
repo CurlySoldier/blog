@@ -1,0 +1,29 @@
+---
+# Main stylesheet using modern Sass syntax
+---
+
+// Define the variables that minima uses - using modern syntax to avoid warnings
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !default;
+$base-font-size: 16px !default;
+$base-font-weight: 400 !default;
+$small-font-size: calc($base-font-size / 1.125) !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit: 30px !default;
+
+$text-color: #111 !default;
+$background-color: #fdfdfd !default;
+$brand-color: #2a7ae4 !default;
+
+$grey-color: #828282 !default;
+// Using hex values to avoid deprecated color functions
+$grey-color-light: #d8d8d8 !default;  // approximately lighten($grey-color, 40%)
+$grey-color-dark: #626262 !default;   // approximately darken($grey-color, 25%)
+
+// Width of the content area
+$content-width: 800px !default;
+$on-palm: 600px !default;
+$on-laptop: 800px !default;
+
+// Import minima theme styles
+@import "minima";
